@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     const payload = await request.json();
 
     // Process the webhook payload
-    console.log('Webhook payload:', payload);
+    console.error('Webhook payload:', payload);
 
     // Perform any necessary actions with the payload data
 
